@@ -97,16 +97,7 @@ pytest -q
 
 The tests compare analytic Delta/Vega to central finite-difference approximations.
 
-## Interview Defense Notes
 
-Be ready to explain:
-
-1. Data alignment and cleaning logic
-2. Sign and unit conventions (`qty * side * multiplier`)
-3. Black-Scholes Delta/Vega formulas and assumptions
-4. Why scenario heatmaps are better than point Greeks
-5. Hedge solve setup (`A x = -g`)
-6. Limitations: smile, jumps, transaction costs, discrete rebalancing
 
 ## Extending to Production
 
